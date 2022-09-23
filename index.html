@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div> 
+            <h1> Generate a 
+             <div id = "green_headline"> random password </div> </h1>
+        </div>    
+        <h3 id="help-txt"> Never use an insecure password again. </h3>
+        <div id="buttons">
+            <button id = "Generate-btn" onclick="generate_btn()">Generate passwords </button>
+            <button id = "passw_length-btn" onclick ="length_btn()"></button>
+            <button class="counter_btn" onclick="up_btn()"> ↑ </button> 
+            <button class ="counter_btn" onclick="down_btn()"> ↓ </button> 
+        </div> 
+        <div id = "line"> </div>
+        <div id="passw-borders">
+            <p id="passw-border1">  </p>
+            <p id="passw-border2">  </p>
+        </div>
+        <form id="categories"> 
+            <div> 
+                <input type="checkbox" id="letters" name="letters"checked>
+                <label for="letters"> Letters </label>
+            </div>
+            <div> 
+                <input type="checkbox" id="numbers" name="numbers"checked>
+                <label for="numbers"> Numbers </label>
+            </div>
+            <div> 
+                <input type="checkbox" id="symbols" name="symbols"checked>
+                <label for="symbols"> Symbols </label>
+            </div>
+        </form>
+        <script src = "index.js"> </script>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    font-family: Inter;
+    background: #1F2937;
+    width:550px;
+    height: 550px;
+    text-align: left;
+    margin-left: 52px;
+    color:white;
+} 
+@font-face {
+    font-family: Karla;
+    src: url(Karla/Karla-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Inter ;
+    src: url(inter/inter-variablefont_slnt,wght.ttf);
+}
+h1{
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    margin-top: 155px;
+    margin-bottom: 10px;
+    
+}
+#green_headline{
+    font-family: Inter;
+    color:#4ADF86;
+}
+#passw-borders{
+    display: flex;
+}
+#passw-border1{
+    height: 39px;
+    width: 211px;
+    background : #273549;
+    border-radius: 6px;
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+}
+#passw-border2{
+    height: 39px;
+    width: 211px;
+    background : #273549;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+}
+#help-txt{
+    margin-bottom: 51px;
+    height: 28px;
+    width: 372px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+#Generate-btn {
+    margin-bottom: 35px;
+    height: 42px;
+    width: 191px;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#line{
+    border: 1px solid #2F3E53;
+    width: 446px;
+    margin-bottom:39px;
+}
+#passw_length-btn{
+    height: 32px;
+    border-radius: 10px;
+    background:  #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+}
+.counter_btn{
+font-weight: 1000;
+font-size: 12px;
+}
+#categories{
+    width: 446px;
+    display:flex;
+    justify-content: space-around;
+    text-shadow: 0px 1px 2px 0px #0000000D;
+}
